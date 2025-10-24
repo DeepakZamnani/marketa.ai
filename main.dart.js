@@ -93988,7 +93988,7 @@ D1(a,b,c){return this.au_(a,b,c)},
 au_(a,b,c){var s=0,r=A.G(t.a),q,p=2,o=[],n,m,l,k,j,i,h
 var $async$D1=A.C(function(d,e){if(d===1){o.push(e)
 s=p}while(true)switch(s){case 0:p=4
-l=A.eq("http://127.0.0.1:5000/initialize-business")
+l=A.eq("https://marketa-model.onrender.com/initialize-business")
 k=t.N
 j=A.aa(["Content-Type","application/json"],k,k)
 s=7
@@ -94020,7 +94020,7 @@ a1X(a,b,c,d,e,f,g,a0,a1){var s=0,r=A.G(t.a),q,p=2,o=[],n,m,l,k,j,i,h
 var $async$yo=A.C(function(a2,a3){if(a2===1){o.push(a3)
 s=p}while(true)switch(s){case 0:if(!$.aGx)throw A.e(A.cB(u.M))
 p=4
-l=A.eq("http://127.0.0.1:5000/generate-offer")
+l=A.eq("https://marketa-model.onrender.com/generate-offer")
 k=t.N
 j=A.aa(["Content-Type","application/json"],k,k)
 s=7
@@ -94051,7 +94051,7 @@ a2V(a,b){var s=0,r=A.G(t.a),q,p=2,o=[],n,m,l,k,j,i,h
 var $async$uj=A.C(function(c,d){if(c===1){o.push(d)
 s=p}while(true)switch(s){case 0:if(!$.aGx)throw A.e(A.cB(u.M))
 p=4
-l=A.eq("http://127.0.0.1:5000/whatsapp/send-message")
+l=A.eq("https://marketa-model.onrender.com/whatsapp/send-message")
 k=t.N
 j=A.aa(["Content-Type","application/json"],k,k)
 s=7
@@ -94416,7 +94416,7 @@ this.a.Iv(this.c)},
 $S:0}
 A.Cu.prototype={
 aa(){var s=t.N
-return new A.HY("http://127.0.0.1:5000",[],A.y(s,t.S),A.y(s,t.a),[])}}
+return new A.HY("https://marketa-model.onrender.com",[],A.y(s,t.S),A.y(s,t.a),[])}}
 A.HY.prototype={
 am(){this.aD()
 this.A3()},
@@ -95767,7 +95767,7 @@ s=this.c
 s.F$=r
 s.E$=0}}
 A.pG.prototype={
-aa(){return new A.Gb("http://127.0.0.1:5000",new A.dk(B.aP,$.af()),A.wm(0,null,null),A.a([],t.SU))}}
+aa(){return new A.Gb("https://marketa-model.onrender.com",new A.dk(B.aP,$.af()),A.wm(0,null,null),A.a([],t.SU))}}
 A.Gb.prototype={
 am(){this.aD()
 this.Pk()},
@@ -95972,7 +95972,7 @@ return s.qq(s.e.a.a)},
 $S:0}
 A.q_.prototype={}
 A.qC.prototype={
-aa(){return new A.Hy("http://127.0.0.1:5000",[],[],new A.dk(B.aP,$.af()))}}
+aa(){return new A.Hy("https://marketa-model.onrender.com",[],[],new A.dk(B.aP,$.af()))}}
 A.Hy.prototype={
 am(){this.aD()
 this.r=this.a.c},
@@ -96321,7 +96321,7 @@ A.aur.prototype={
 $0(){return this.a.vs("whatsapp")},
 $S:0}
 A.pH.prototype={
-aa(){return new A.Gc("http://127.0.0.1:5000")}}
+aa(){return new A.Gc("https://marketa-model.onrender.com")}}
 A.Gc.prototype={
 am(){this.aD()
 this.u_()},
