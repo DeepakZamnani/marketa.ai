@@ -98093,7 +98093,7 @@ Dk(a,b,c){return this.awn(a,b,c)},
 awn(a,b,c){var s=0,r=A.I(t.P),q,p=2,o=[],n,m,l,k,j,i,h
 var $async$Dk=A.D(function(d,e){if(d===1){o.push(e)
 s=p}while(true)switch(s){case 0:p=4
-l=A.eE("http://marketa-model.onrender.com/initialize-business")
+l=A.eE("https://marketa-model.onrender.com/initialize-business")
 k=t.N
 j=A.af(["Content-Type","application/json"],k,k)
 s=7
@@ -98128,7 +98128,7 @@ a3l(a,b,c,d,e,f,g,a0,a1){var s=0,r=A.I(t.P),q,p=2,o=[],n,m,l,k,j,i,h
 var $async$ys=A.D(function(a2,a3){if(a2===1){o.push(a3)
 s=p}while(true)switch(s){case 0:if(!$.aM5)throw A.d(A.cy(u.M))
 p=4
-l=A.eE("http://marketa-model.onrender.com/api/generate-message")
+l=A.eE("https://marketa-model.onrender.com/api/generate-message")
 k=t.N
 j=A.af(["Content-Type","application/json"],k,k)
 s=7
@@ -98159,7 +98159,7 @@ a4g(a,b){var s=0,r=A.I(t.P),q,p=2,o=[],n,m,l,k,j,i,h
 var $async$us=A.D(function(c,d){if(c===1){o.push(d)
 s=p}while(true)switch(s){case 0:if(!$.aM5)throw A.d(A.cy(u.M))
 p=4
-l=A.eE("http://marketa-model.onrender.com/whatsapp/send-message")
+l=A.eE("https://marketa-model.onrender.com/whatsapp/send-message")
 k=t.N
 j=A.af(["Content-Type","application/json"],k,k)
 s=7
@@ -98529,7 +98529,7 @@ this.a.IV(this.c)},
 $S:0}
 A.DG.prototype={
 aa(){var s=t.N
-return new A.Jp("http://marketa-model.onrender.com",[],A.v(s,t.S),A.v(s,t.P),[])}}
+return new A.Jp("https://marketa-model.onrender.com",[],A.v(s,t.S),A.v(s,t.P),[])}}
 A.Jp.prototype={
 ao(){this.aG()
 this.Ac()},
@@ -99869,7 +99869,7 @@ s=this.c
 s.I$=r
 s.G$=0}}
 A.qv.prototype={
-aa(){return new A.Hz("http://marketa-model.onrender.com",new A.dC(B.aQ,$.ak()),A.xv(0,null,null),A.b([],t.SU))}}
+aa(){return new A.Hz("https://marketa-model.onrender.com",new A.dC(B.aQ,$.ak()),A.xv(0,null,null),A.b([],t.SU))}}
 A.Hz.prototype={
 ao(){this.aG()
 this.Q1()},
@@ -100074,7 +100074,7 @@ return s.qF(s.e.a.a)},
 $S:0}
 A.qQ.prototype={}
 A.rw.prototype={
-aa(){return new A.IZ("http://marketa-model.onrender.com",[],[],new A.dC(B.aQ,$.ak()))}}
+aa(){return new A.IZ("https://marketa-model.onrender.com",[],[],new A.dC(B.aQ,$.ak()))}}
 A.IZ.prototype={
 ao(){this.aG()
 this.r=this.a.c},
@@ -100427,7 +100427,7 @@ A.azp.prototype={
 $0(){return this.a.vB("whatsapp")},
 $S:0}
 A.qw.prototype={
-aa(){return new A.HA("http://marketa-model.onrender.com")}}
+aa(){return new A.HA("https://marketa-model.onrender.com")}}
 A.HA.prototype={
 ao(){this.aG()
 this.Ak()},
@@ -101010,7 +101010,7 @@ return null},
 $S:13}
 A.tv.prototype={
 aa(){var s=t.N
-return new A.JS("http://marketa-model.onrender.com",new A.dC(B.aQ,$.ak()),A.b([A.af(["value","1:1","label","Square (1:1)"],s,s),A.af(["value","3:4","label","Portrait (3:4)"],s,s),A.af(["value","4:3","label","Landscape (4:3)"],s,s),A.af(["value","9:16","label","Story (9:16)"],s,s),A.af(["value","16:9","label","Widescreen (16:9)"],s,s)],t.m0))}}
+return new A.JS("https://marketa-model.onrender.com",new A.dC(B.aQ,$.ak()),A.b([A.af(["value","1:1","label","Square (1:1)"],s,s),A.af(["value","3:4","label","Portrait (3:4)"],s,s),A.af(["value","4:3","label","Landscape (4:3)"],s,s),A.af(["value","9:16","label","Story (9:16)"],s,s),A.af(["value","16:9","label","Widescreen (16:9)"],s,s)],t.m0))}}
 A.JS.prototype={
 ao(){this.aG()
 this.vb()},
