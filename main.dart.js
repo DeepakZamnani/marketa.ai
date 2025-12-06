@@ -98888,7 +98888,7 @@ Dy(a,b,c){return this.awX(a,b,c)},
 awX(a,b,c){var s=0,r=A.I(t.P),q,p=2,o=[],n,m,l,k,j,i,h
 var $async$Dy=A.E(function(d,e){if(d===1){o.push(e)
 s=p}while(true)switch(s){case 0:p=4
-l=A.eH("https://marekta-model.onrender.com/initialize-business")
+l=A.eH("https://marketa-model.onrender.com/initialize-business")
 k=t.N
 j=A.ae(["Content-Type","application/json"],k,k)
 s=7
@@ -98923,7 +98923,7 @@ a3L(a,b,c,d,e,f,g,a0,a1){var s=0,r=A.I(t.P),q,p=2,o=[],n,m,l,k,j,i,h
 var $async$yB=A.E(function(a2,a3){if(a2===1){o.push(a3)
 s=p}while(true)switch(s){case 0:if(!$.aN2)throw A.d(A.cE(u.M))
 p=4
-l=A.eH("https://marekta-model.onrender.com/api/generate-message")
+l=A.eH("https://marketa-model.onrender.com/api/generate-message")
 k=t.N
 j=A.ae(["Content-Type","application/json"],k,k)
 s=7
@@ -98954,7 +98954,7 @@ a4H(a,b){var s=0,r=A.I(t.P),q,p=2,o=[],n,m,l,k,j,i,h
 var $async$uz=A.E(function(c,d){if(c===1){o.push(d)
 s=p}while(true)switch(s){case 0:if(!$.aN2)throw A.d(A.cE(u.M))
 p=4
-l=A.eH("https://marekta-model.onrender.com/whatsapp/send-message")
+l=A.eH("https://marketa-model.onrender.com/whatsapp/send-message")
 k=t.N
 j=A.ae(["Content-Type","application/json"],k,k)
 s=7
@@ -99323,7 +99323,7 @@ this.a.Jb(this.c)},
 $S:0}
 A.DU.prototype={
 a8(){var s=t.N
-return new A.JH("https://marekta-model.onrender.com",[],A.t(s,t.S),A.t(s,t.P),[])}}
+return new A.JH("https://marketa-model.onrender.com",[],A.t(s,t.S),A.t(s,t.P),[])}}
 A.JH.prototype={
 ap(){this.aF()
 this.v8()},
@@ -100735,7 +100735,7 @@ s=this.c
 s.I$=r
 s.G$=0}}
 A.qD.prototype={
-a8(){return new A.HQ("https://marekta-model.onrender.com",new A.dT(B.b_,$.al()),A.xL(0,null,null),A.b([],t.SU))}}
+a8(){return new A.HQ("https://marketa-model.onrender.com",new A.dT(B.b_,$.al()),A.xL(0,null,null),A.b([],t.SU))}}
 A.HQ.prototype={
 ap(){this.aF()
 this.Qm()},
@@ -100940,7 +100940,7 @@ return s.qP(s.e.a.a)},
 $S:0}
 A.qZ.prototype={}
 A.rJ.prototype={
-a8(){return new A.ZC("https://marekta-model.onrender.com",[],[],new A.dT(B.b_,$.al()))}}
+a8(){return new A.ZC("https://marketa-model.onrender.com",[],[],new A.dT(B.b_,$.al()))}}
 A.ZC.prototype={
 ap(){this.aF()
 this.r=this.a.c},
@@ -101226,7 +101226,7 @@ A.azX.prototype={
 $0(){return this.a.J6(this.b,this.c)},
 $S:0}
 A.qE.prototype={
-a8(){return new A.HR("https://marekta-model.onrender.com")}}
+a8(){return new A.HR("https://marketa-model.onrender.com")}}
 A.HR.prototype={
 ap(){this.aF()
 this.AB()},
@@ -101764,7 +101764,7 @@ s=J.Y(s.a(b.b),"revenue")
 return B.d.b0(A.ca(s==null?0:s),q)},
 $S:134}
 A.rY.prototype={
-a8(){return new A.Jx("https://marekta-model.onrender.com",[])}}
+a8(){return new A.Jx("https://marketa-model.onrender.com",[])}}
 A.Jx.prototype={
 ap(){this.aF()
 this.va()},
@@ -102369,7 +102369,7 @@ return null},
 $S:18}
 A.tJ.prototype={
 a8(){var s=t.N
-return new A.Kb("https://marekta-model.onrender.com",new A.dT(B.b_,$.al()),A.b([A.ae(["value","1:1","label","Square (1:1)"],s,s),A.ae(["value","3:4","label","Portrait (3:4)"],s,s),A.ae(["value","4:3","label","Landscape (4:3)"],s,s),A.ae(["value","9:16","label","Story (9:16)"],s,s),A.ae(["value","16:9","label","Widescreen (16:9)"],s,s)],t.m0))}}
+return new A.Kb("https://marketa-model.onrender.com",new A.dT(B.b_,$.al()),A.b([A.ae(["value","1:1","label","Square (1:1)"],s,s),A.ae(["value","3:4","label","Portrait (3:4)"],s,s),A.ae(["value","4:3","label","Landscape (4:3)"],s,s),A.ae(["value","9:16","label","Story (9:16)"],s,s),A.ae(["value","16:9","label","Widescreen (16:9)"],s,s)],t.m0))}}
 A.Kb.prototype={
 ap(){this.aF()
 this.vl()},
