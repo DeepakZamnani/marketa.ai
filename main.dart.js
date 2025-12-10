@@ -99404,14 +99404,14 @@ o=null
 try{o=p.gvp()
 A.bV("\ud83d\udce4 [INIT] Headers to send: "+A.k(o))}catch(d){n=A.ae(d)
 A.bV("\u274c [INIT] Error getting headers: "+A.k(n))
-throw d}A.bV("\ud83c\udf10 [INIT] URL: http://127.0.0.1:4000/initialize-business")
+throw d}A.bV("\ud83c\udf10 [INIT] URL: https://marketa-model.onrender.com/initialize-business")
 m=a==null?"":a
 k=t.N
 i=B.am.nW(A.af(["business_name",b,"business_description",m],k,k),null)
 A.bV("\ud83d\udce6 [INIT] Body: "+i)
 A.bV(B.c.ak("\u2550",60))
 s=3
-return A.J(A.AP(A.ey("http://127.0.0.1:4000/initialize-business",0,null),i,o),$async$DD)
+return A.J(A.AP(A.ey("https://marketa-model.onrender.com/initialize-business",0,null),i,o),$async$DD)
 case 3:h=a0
 k=h.b
 A.bV("\ud83d\udce5 [INIT] Response status: "+k)
@@ -99456,7 +99456,7 @@ try{o=p.gvp()
 A.bV("\ud83d\udce4 [OFFER] Headers being sent: "+A.k(o))}catch(a6){n=A.ae(a6)
 A.bV("\u274c [OFFER] ERROR getting _headers: "+A.k(n))
 throw a6}A.bV(B.c.ak("\u2550",60))
-m=A.ey("http://127.0.0.1:4000/generate-offer",0,null)
+m=A.ey("https://marketa-model.onrender.com/generate-offer",0,null)
 k=o
 s=3
 return A.J(A.AP(m,B.am.nW(A.af(["customer_id",b,"customer_name",c,"tier",a4,"segment",a3,"total_spent",a5,"order_count",a0,"avg_order_value",a,"recency",a1,"rfm_score",a2,"last_purchase_date",f,"last_product",e,"language",d],t.N,t.X),null),k),$async$yI)
@@ -99477,7 +99477,7 @@ return A.F($async$yI,r)},
 yH(a,b,c,d,e,f,g,h,i){return this.a44(a,b,c,d,e,f,g,h,i)},
 a44(a,b,c,d,e,f,g,h,i){var s=0,r=A.G(t.P),q,p=this,o,n,m
 var $async$yH=A.C(function(j,k){if(j===1)return A.D(k,r)
-while(true)switch(s){case 0:o=A.ey("http://127.0.0.1:4000/api/generate-message",0,null)
+while(true)switch(s){case 0:o=A.ey("https://marketa-model.onrender.com/api/generate-message",0,null)
 n=p.gvp()
 s=3
 return A.J(A.AP(o,B.am.nW(A.af(["customer_id",b,"customer_name",c,"tier",h,"segment",g,"total_spent",i,"order_count",d,"avg_order_value",a,"recency",e,"rfm_score",f,"last_purchase_date",null,"last_product",null],t.N,t.X),null),n),$async$yH)
@@ -99493,7 +99493,7 @@ return A.F($async$yH,r)},
 yQ(a,b){return this.a4y(a,b)},
 a4y(a,b){var s=0,r=A.G(t.P),q,p=this,o,n,m
 var $async$yQ=A.C(function(c,d){if(c===1)return A.D(d,r)
-while(true)switch(s){case 0:o=A.ey("http://127.0.0.1:4000/sales-insights",0,null)
+while(true)switch(s){case 0:o=A.ey("https://marketa-model.onrender.com/sales-insights",0,null)
 n=p.gvp()
 s=3
 return A.J(A.AP(o,B.am.nW(A.af(["sales_data",b,"business_context",a],t.N,t.z),null),n),$async$yQ)
@@ -99509,7 +99509,7 @@ return A.F($async$yQ,r)},
 uD(a,b){return this.a52(a,b)},
 a52(a,b){var s=0,r=A.G(t.P),q,p=this,o,n,m,l
 var $async$uD=A.C(function(c,d){if(c===1)return A.D(d,r)
-while(true)switch(s){case 0:o=A.ey("http://127.0.0.1:4000/whatsapp/send-message",0,null)
+while(true)switch(s){case 0:o=A.ey("https://marketa-model.onrender.com/whatsapp/send-message",0,null)
 n=p.gvp()
 m=t.N
 s=3
@@ -99863,7 +99863,7 @@ this.a.Jm(this.c)},
 $S:0}
 A.E8.prototype={
 a8(){var s=t.N
-return new A.JY("http://127.0.0.1:4000",[],A.t(s,t.S),A.t(s,t.P),[])}}
+return new A.JY("https://marketa-model.onrender.com",[],A.t(s,t.S),A.t(s,t.P),[])}}
 A.JY.prototype={
 ap(){this.aF()
 this.vc()},
@@ -101275,7 +101275,7 @@ s=this.c
 s.I$=r
 s.G$=0}}
 A.qL.prototype={
-a8(){return new A.I5("http://127.0.0.1:4000",new A.dU(B.b0,$.am()),A.xX(0,null,null),A.b([],t.SU))}}
+a8(){return new A.I5("https://marketa-model.onrender.com",new A.dU(B.b0,$.am()),A.xX(0,null,null),A.b([],t.SU))}}
 A.I5.prototype={
 ap(){this.aF()
 this.QA()},
@@ -101480,7 +101480,7 @@ return s.qS(s.e.a.a)},
 $S:0}
 A.r5.prototype={}
 A.rR.prototype={
-a8(){return new A.ZU("http://127.0.0.1:4000",[],[],new A.dU(B.b0,$.am()),new A.x1())}}
+a8(){return new A.ZU("https://marketa-model.onrender.com",[],[],new A.dU(B.b0,$.am()),new A.x1())}}
 A.ZU.prototype={
 ap(){this.aF()
 this.r=this.a.c},
@@ -101792,7 +101792,7 @@ A.aAu.prototype={
 $0(){return this.a.Jh(this.b,this.c)},
 $S:0}
 A.qM.prototype={
-a8(){return new A.I6("http://127.0.0.1:4000",new A.x1())}}
+a8(){return new A.I6("https://marketa-model.onrender.com",new A.x1())}}
 A.I6.prototype={
 ap(){this.aF()
 this.AI()},
@@ -102325,7 +102325,7 @@ s=J.Y(s.a(b.b),"revenue")
 return B.d.b0(A.cf(s==null?0:s),q)},
 $S:130}
 A.t5.prototype={
-a8(){return new A.JO("http://127.0.0.1:4000",[])}}
+a8(){return new A.JO("https://marketa-model.onrender.com",[])}}
 A.JO.prototype={
 ap(){this.aF()
 this.ve()},
@@ -102930,7 +102930,7 @@ return null},
 $S:16}
 A.tR.prototype={
 a8(){var s=t.N
-return new A.Ks("http://127.0.0.1:4000",new A.dU(B.b0,$.am()),A.b([A.af(["value","1:1","label","Square (1:1)"],s,s),A.af(["value","3:4","label","Portrait (3:4)"],s,s),A.af(["value","4:3","label","Landscape (4:3)"],s,s),A.af(["value","9:16","label","Story (9:16)"],s,s),A.af(["value","16:9","label","Widescreen (16:9)"],s,s)],t.m0))}}
+return new A.Ks("https://marketa-model.onrender.com",new A.dU(B.b0,$.am()),A.b([A.af(["value","1:1","label","Square (1:1)"],s,s),A.af(["value","3:4","label","Portrait (3:4)"],s,s),A.af(["value","4:3","label","Landscape (4:3)"],s,s),A.af(["value","9:16","label","Story (9:16)"],s,s),A.af(["value","16:9","label","Widescreen (16:9)"],s,s)],t.m0))}}
 A.Ks.prototype={
 ap(){this.aF()
 this.vr()},
